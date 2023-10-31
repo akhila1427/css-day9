@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  .rain{background-image: linear-gradient(to right,violet,red,orange,blue,indigo,green);}
+ .rain{border: 2px solid black;width: 200px;height: 150px;transition-duration: 1s;transition-timing-function:linear;}
+.rain:hover{width:500px;}
+.rainb{border: 2px solid black;width: 200px;height: 150px;background-image: linear-gradient(to right,violet,red,orange,blue,indigo,green);}
+.rainb {animation-name: example;animation-duration: 2s;animation-timing-function: linear;position: relative;;animation-iteration-count: infinite;}
+
+
+@keyframes example{
+            from{left: 0px;}
+            to{
+              left: 500px;
+            }}
+        
+</style>
+<body>
+  <div class="rain">
+    <br><br><br> <br><br><br><br><br><br><br><br>
+    <h1>AND</h1>
+    <div class="rainb"></div>
+
+</body>
+</html>
